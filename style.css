@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: sans-serif, Norse-Bold;
   margin: 0;
   padding: 0;
 }
@@ -18,18 +18,34 @@ body {
 .left {
   display: flex;
   height: 100vh;
-  width: 40vw;
+  width: 30vw;
   justify-content: center;
   background-image: url("./images/background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  align-items: center;
 }
 
 .right {
   border: solid;
-  width: 60vw;
+  width: 70vw;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+.text-container {
+  font-weight: 700;
+  height: 40vh;
+  font
+}
+
+.form {
+  height: 30vh;
+}
+
+.button-and-text {
+  height: 30vh;
 }
 
 #odin-title {
@@ -37,4 +53,23 @@ body {
   text-transform: uppercase;
   font-size: 56px;
   color: white;
+}
+
+.sidebar-image {
+  width: 100px;
+  height: 100px;
+}
+
+.overlay {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-and-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
