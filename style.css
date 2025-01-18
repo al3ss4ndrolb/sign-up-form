@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
   font-family: "Norse-Bold";
   src: url(/Norse-Bold.otf) format("opentype");
 }
@@ -32,7 +32,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .text-container {
@@ -50,10 +50,11 @@ body {
   height: 40vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end
+  align-items: flex-end;
 }
 .form {
   height: 30vh;
+  background-color: white;
 }
 
 .button-and-text {
