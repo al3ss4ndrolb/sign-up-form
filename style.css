@@ -89,3 +89,16 @@ body {
 
 .form-container {
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-divs {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
