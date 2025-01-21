@@ -10,4 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
       error.innerHTML = "";
     }
   };
+
+  // Add event listeners to the password fields
+  document.querySelector("#password").addEventListener("input", checkPassword);
+  document
+    .querySelector("#confirm_password")
+    .addEventListener("input", checkPassword);
 });
