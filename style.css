@@ -136,4 +136,16 @@ input:focus {
 }
 
 .third-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-and-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.submit-button {
 }
