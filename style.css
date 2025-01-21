@@ -166,6 +166,7 @@ input:focus {
   margin-bottom: 8px;
   box-shadow: 0 0 3px grey;
   border: none;
+  cursor: pointer;
 }
 
 #login-link {
