@@ -16,20 +16,36 @@ body {
 }
 
 .image-and-title-container {
-  margin-top: 200px;
+  margin-top: 150px;
   background-color: rgba(0, 0, 0, 0.5);
   width: auto;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+#odin-title {
+  font-family: Norse-Bold;
+  text-transform: uppercase;
+  font-size: 76px;
+  color: white;
+  padding: 0px;
+  margin: 0px;
 }
 
 .credits {
+  position: relative;
   display: flex;
   justify-content: center;
   color: white;
   padding: 10px;
   height: 60vh;
   width: 100%;
-  text-align: center;
+  align-items: flex-end;
+  gap: 4px;
 }
 
 .credits a {
@@ -79,33 +95,6 @@ body {
 
 .button-and-text {
   height: 30vh;
-}
-
-#odin-title {
-  font-family: Norse-Bold;
-  text-transform: uppercase;
-  font-size: 56px;
-  color: white;
-}
-
-.sidebar-image {
-  width: 100px;
-  height: 100px;
-}
-
-.overlay {
-  width: 100%;
-  height: 20vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-and-title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .second-section {
