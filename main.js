@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
   const checkPassword = () => {
     const password = document.querySelector("#password").value;
     const confirmedPassword = document.querySelector("#confirm-password").value;
