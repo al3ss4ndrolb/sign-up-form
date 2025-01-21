@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign up Form</title>
     <link rel="stylesheet" href="style.css" />
+    <script src=""></script>
   </head>
 
   <body>
@@ -34,42 +35,47 @@
             <p>You <i>know</i> you want to.</p>
           </div>
         </div>
-        <div class="form-container">
+        <div class="second-section">
           <h3>Let's do this!</h3>
-          <div class="left-form">
-            <form action="" method="get">
-              <div class="form-divs">
-                <label for="first_name">First Name</label>
-                <input type="text" id="first_name" />
-              </div>
-              <div class="form-divs">
-                <label for="email">Email</label>
-                <input type="email" id="email" />
-              </div>
-              <div class="form-divs">
-                <label for="password">Password</label>
-                <input type="password" id="password" />
-              </div>
-            </form>
-          </div>
-          <div class="right-form">
-            <form action="" method="get" class="right-form">
-              <div class="form-divs">
-                <label for="last_name">Last name</label>
-                <input type="text" id="last_name" />
-              </div>
-              <div class="form-divs">
-                <label for="phone_number">Phone number</label>
-                <input type="tel" id="phone_number" />
-              </div>
-              <div class="form-divs">
-                <label for="confirm_password">Confirm password</label>
-                <input type="password" id="confirm_password" />
-              </div>
-            </form>
+          <div class="form-container">
+            <div class="left-form">
+              <form action="" method="get">
+                <div class="form-divs">
+                  <label for="first_name">First Name</label>
+                  <input type="text" id="first_name" />
+                </div>
+                <div class="form-divs">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" />
+                </div>
+                <div class="form-divs">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" required />
+                  <p id="error">Passwords do not match!</p>
+                </div>
+              </form>
+            </div>
+            <div class="right-form">
+              <form action="" method="get" class="right-form">
+                <div class="form-divs">
+                  <label for="last_name">Last name</label>
+                  <input type="text" id="last_name" />
+                </div>
+                <div class="form-divs">
+                  <label for="phone_number">Phone number</label>
+                  <input type="tel" id="phone_number" />
+                </div>
+                <div class="form-divs">
+                  <label for="confirm_password">Confirm password</label>
+                  <input type="password" id="confirm_password" required />
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="button-and-text"></div>
+        <section class="third-section">
+          <div class="button-and-text"></div>
+        </section>
       </div>
     </div>
   </body>
