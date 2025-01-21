@@ -4,14 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const confirmedPassword = document.querySelector("#confirm-password").value;
 
     const error = document.querySelector("#error");
-    if (password === confirmedPassword) {
-      return true;
+    if (password !== confirmedPassword) {
+      error.innerHTML = "Passwords do not match!";
     } else {
-      return false;
+      error.innerHTML = "";
     }
   };
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-  console.log("Hey I wrote this too!");
 });
