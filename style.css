@@ -7,12 +7,14 @@ body {
   font-family: Nurse-Bold, Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
+  zoom: 1;
 }
 
 .page-container {
   display: flex;
   width: 100vw;
   height: 100vh;
+  border-left: none;
 }
 
 .image-and-title-container {
@@ -186,4 +188,28 @@ input:focus {
   text-decoration: none;
   font-weight: 700;
   color: #596d48;
+}
+
+body {
+  font-size: 16px;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
 }
